@@ -1,7 +1,16 @@
-node_modules
-.next
-.git
-*.log
-.env
-.env.*
-railway.toml
+# Python caches and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.eggs/
